@@ -1,0 +1,120 @@
+dilan redes
+vido d como cnfigura switches
+
+administariv
+1067861118
+28121987
+
+rpm RFC 82
+la mac es unica es como la cedula
+ y la ip es como la direccion postal cambia donde te mudes se te asigna un ip osea una direccion
+
+las tarjetas conocen son dirciones mac
+
+las pc locales se comincan es con mac y no con ip
+
+a conectar con d
+tanta a como d tienes sus ip
+pero se desconocen
+como se van a conectar esas pc
+hace un sonsea
+rta: la maquina a hace una peticion brockas a todas pas pc alrededor
+a todos les manda ms x difusion:
+¿tu eres esta direcion ?
+si no es la pc responde que no pero si es manda un ms que si
+
+como sabe quien mando en ms de sondeo
+en el ms que envia para saber de quien era direcion, ahi iba su direcion y entonces
+ya sebe kien le envio el ms
+y asi se consigue direccion ip o. y d. y la mac o. y d. 
+ arp convierte la ip a mac
+
+tarjetas de red tiene buffer y saben cuales host estan conctados.
+si ya esta agregada en el buffer no buelve a realizar sondeo.
+tabla de asignacion arp, ahi se van guardando las direcciones.
+cada adaptador refresta la tabla arp.
+tiempo de vida(20min refresca)
+
+red lan
+(a conectar con b)
+manda difusion en toos los nodos
+se conectan atraves del router
+router tiene una wengay
+el router recoge ms de a y retrasmite a b
+y el router envia a en la cabecera la ip de b.
+
+
+ETHERNET
+conecta capa enlace con la fifica
+es un dispositivo 
+una tecnologia en las redes lan(celudla pc)
+nalambrica o cableada. 
+meccalfe:creo target dered
+targetas de red, so utilizadas en tds los sistemas de red, 
+topologia, bus un camble para tdod
+star; independientemente de q un cable se dañe el sigue funcionando
+structura frame:
+frame o marco encapsula el datagrama, finalmente eso se convierte ne direccion MAC
+direccion mc origen, destno, type, dato, crc
+type:protocolo de red q esta usando, IP en la actualidad
+chequeo de redundancia; verfica y ira si ls frame se enviaron correctamente deteccion y correccion de error)
+
+caracteristica de etherne:
+--no es un protocolo confiable, xq quien hace esa tarea es la capa cuatro(transporte, po medio de TCP y UDP.
+-trabajacon le protocolo de accso al medio CSMICD detcta cilicione y acceso multiple en la red
+
+TIPOS DE ETHERNET:
+de 10gmb, 2gmb
+
+
+
+
+router: alamcena
+switch:caacteristics. 
+controla el trafico , y lo hace llegr al destntario.  
+organiza las redes locales, almacenamiento y rennvio de los frames anvel local
+ opera de forma transparente, de manera que un host no lo detecta
+plug and play: te conectas y descargasen ada uno de sus puerto. 
+
+la comunicacion entre switc, es full duplex
+como oper el swct: a partir del  protocolo ARP manda un mensaje de difucon en su red, reconoce los que esta en su red y depediedo de su tabal asigna direcciones
+
+VLANs
+hacer taller, cable serial. sale de un US  a un serial, cable con
+parcial dentro de 15 dias. hasta VLANs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+se ha mejorado la velocidad(10gb)
+
+

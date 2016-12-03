@@ -1,0 +1,621 @@
+2016-02-24 13:13:12 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: No existe el fichero o el directorio
+	¿Está el servidor en ejecución localmente y aceptando
+	conexiones en el socket de dominio Unix «/run/postgresql/.s.PGSQL.5432»?
+
+2016-02-24 13:14:36 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-03-02 19:09:48 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-03-02 19:09:56 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-03-04 14:50:14 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-04-25 14:29:00 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-04-25 14:37:10 ERROR  : ERROR:  la relación «pk_id_eje» ya existe
+2016-04-25 14:40:12 ERROR  : ERROR:  el valor null para la columna «descripcion» viola la restricción not null
+DETALLE:  La fila que falla contiene (1, INCLUSIÓN SOCIAL - GRUPOS POBLACIONALES, null, null).
+2016-04-25 14:46:32 ERROR  : ERROR:  setval: el valor 0 está fuera del rango de la secuencia «componentes_id_seq» (1..9223372036854775807)
+2016-04-25 14:48:34 ERROR  : ERROR:  el valor null para la columna «descripcion» viola la restricción not null
+DETALLE:  La fila que falla contiene (4, CONDICIONES DE VIDA DIGNA PARA TODOS, null, null).
+2016-04-28 12:51:17 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-09-14 11:09:45 ERROR  : Error connecting to the server: no se pudo traducir el nombre «aa4xsen048rabq.cgqejkc6bkhp.us-west-2.rds.amazonaws.com:5432» a una dirección: Nombre o servicio desconocido
+
+2016-09-14 11:12:10 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Expiró el tiempo de conexión
+	¿Está el servidor en ejecución en el servidor «aa4xsen048rabq.cgqejkc6bkhp.us-west-2.rds.amazonaws.com» (54.70.67.188) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-09-14 11:17:30 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-09-14 11:20:19 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Expiró el tiempo de conexión
+	¿Está el servidor en ejecución en el servidor «aa4xsen048rabq.cgqejkc6bkhp.us-west-2.rds.amazonaws.com» (54.70.67.188) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-09-14 11:43:25 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Expiró el tiempo de conexión
+	¿Está el servidor en ejecución en el servidor «aa4xsen048rabq.cgqejkc6bkhp.us-west-2.rds.amazonaws.com» (54.70.67.188) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-09-20 14:06:22 ERROR  : ERROR:  el operador no existe: character varying = integer
+LÍNEA 1:  SELECT * from persona where identificacion = 654
+                                                     ^
+SUGERENCIA:  Ningún operador coincide con el nombre y el tipo de los argumentos. Puede ser necesario agregar conversiones explícitas de tipos.
+2016-09-22 13:58:20 ERROR  : ERROR:  no existe la relación «persona»
+LÍNEA 1: SELECT * from persona
+                       ^
+2016-10-12 05:14:31 ERROR  : ERROR:  la relación «pk_egreso_id» ya existe
+2016-10-12 05:14:40 ERROR  : ERROR:  la relación «pk_egreso_id» ya existe
+2016-10-14 06:42:34 ERROR  : ERROR:  el valor null para la columna «id_tipo» viola la restricción not null
+DETALLE:  La fila que falla contiene (2, GIOVANNA RENDON, giovanna, 3583807ce7e9287f352b9ad693bacb34, t, null).
+2016-10-14 07:04:40 ERROR  : ERROR:  update o delete en «origen_destino» viola la llave foránea «fk_viaje_id_destino» en la tabla «viaje»
+DETALLE:  La llave (id)=(4) todavía es referida desde la tabla «viaje».
+2016-10-14 07:04:57 ERROR  : ERROR:  update o delete en «origen_destino» viola la llave foránea «fk_viaje_id_destino» en la tabla «viaje»
+DETALLE:  La llave (id)=(4) todavía es referida desde la tabla «viaje».
+2016-10-14 07:33:50 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETALLE:  Table "viaje" references "origen_destino".
+SUGERENCIA:  Truncate table "viaje" at the same time, or use TRUNCATE ... CASCADE.
+2016-10-14 09:45:18 ERROR  : ERROR:  null value in column "codigo" violates not-null constraint
+DETALLE:  Failing row contains (26, 10, null, null).
+2016-10-14 09:46:22 ERROR  : ERROR:  null value in column "codigo" violates not-null constraint
+DETALLE:  Failing row contains (28, 10, null, null).
+2016-10-14 09:46:26 ERROR  : ERROR:  null value in column "codigo" violates not-null constraint
+DETALLE:  Failing row contains (29, 10, null, null).
+2016-10-14 09:58:03 ERROR  : ERROR:  null value in column "m3" violates not-null constraint
+DETALLE:  Failing row contains (17, -, SXA980, null).
+2016-10-14 09:59:42 ERROR  : ERROR:  null value in column "placa" violates not-null constraint
+DETALLE:  Failing row contains (23, -, null, null).
+2016-10-14 09:59:59 ERROR  : ERROR:  null value in column "placa" violates not-null constraint
+DETALLE:  Failing row contains (24, -, null, null).
+2016-10-14 10:46:34 ERROR  : ERROR:  relation "public.actividad" does not exist
+2016-10-14 10:46:46 ERROR  : ERROR:  relation "public.actividad" does not exist
+2016-10-14 10:47:30 ERROR  : ERROR:  la restricción «fk_viaje_id_actividad» para la relación «viaje» ya existe
+2016-10-14 10:47:54 ERROR  : ERROR:  relation "public.actividad" does not exist
+2016-10-14 10:48:24 ERROR  : ERROR:  column "id_actividad" of relation "viaje" already exists
+2016-10-14 10:48:41 ERROR  : ERROR:  relation "public.actividad" does not exist
+2016-10-14 10:49:39 ERROR  : ERROR:  relation "actividad_id_seq" does not exist
+2016-10-16 08:14:46 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Expiró el tiempo de conexión
+	¿Está el servidor en ejecución en el servidor «arquitectsas.cgy6rggzy8fk.us-east-1.rds.amazonaws.com» (52.45.145.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-10-16 08:28:07 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Expiró el tiempo de conexión
+	¿Está el servidor en ejecución en el servidor «arquitectsas.cgy6rggzy8fk.us-east-1.rds.amazonaws.com» (52.45.145.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-10-16 08:33:53 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Expiró el tiempo de conexión
+	¿Está el servidor en ejecución en el servidor «arquitectsas.cgy6rggzy8fk.us-east-1.rds.amazonaws.com» (52.45.145.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-10-17 07:45:36 ERROR  : ERROR:  la relación «pk_origen_destino_id» ya existe
+2016-10-17 13:03:05 ERROR  : ERROR:  el valor null para la columna «id_tipo» viola la restricción not null
+DETALLE:  La fila que falla contiene (35, null, null, null, 2016-10-14 10:44:55).
+2016-10-17 13:03:07 ERROR  : ERROR:  el valor null para la columna «id_tipo» viola la restricción not null
+DETALLE:  La fila que falla contiene (36, null, null, null, 2016-10-14 10:44:55).
+2016-10-18 07:37:37 ERROR  : ERROR:  permiso denegado a la relación viaje
+2016-10-18 07:37:39 ERROR  : ERROR:  permiso denegado a la relación viaje
+2016-10-18 07:41:02 ERROR  : ERROR:  permiso denegado a la relación viaje
+2016-10-18 07:41:26 ERROR  : ERROR:  permiso denegado a la relación viaje
+2016-10-18 07:41:31 ERROR  : ERROR:  permiso denegado a la relación vehiculo
+2016-10-18 07:41:37 ERROR  : ERROR:  permiso denegado a la relación vehiculo
+2016-10-18 07:42:01 ERROR  : ERROR:  permiso denegado a la relación vehiculo
+2016-10-19 14:40:04 ERROR  : ERROR:  la columna «viaje.id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 1: ...cha" BETWEEN '2016-09-01' AND '2016-10-19' ORDER BY "id" ASC
+                                                                ^
+2016-10-19 14:40:44 ERROR  : ERROR:  la columna «viaje.id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 1: ...fecha" BETWEEN '2016-09-01' AND '2016-10-19' ORDER BY id ASC
+                                                                  ^
+2016-10-19 15:37:14 ERROR  : ERROR:  no existe la columna «km»
+LÍNEA 1: select sum (km) from viaje
+                     ^
+2016-10-19 15:38:32 ERROR  : ERROR:  no existe la función sum(real, integer)
+LÍNEA 1: select sum (valor_viaje, km_recorridos) from viaje
+                ^
+SUGERENCIA:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+2016-10-23 07:52:15 ERROR  : ERROR:  error de sintaxis en o cerca de «FROM»
+LÍNEA 4: FROM 
+         ^
+2016-10-23 07:52:20 ERROR  : ERROR:  la columna «vehiculo.placa» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   vehiculo.placa,
+           ^
+2016-10-23 08:01:58 ERROR  : ERROR:  no existe la columna viaje.km_recordidos
+LÍNEA 5:   sum(viaje.km_recordidos)
+               ^
+SUGERENCIA:  Perhaps you meant to reference the column "viaje.km_recorridos".
+2016-10-23 08:06:25 ERROR  : ERROR:  no existe la columna viaje.valor_cobrar
+LÍNEA 7:   sum(viaje.valor_cobrar)
+               ^
+2016-10-24 06:19:57 ERROR  : ERROR:  la columna «id_categoria» contiene valores nulos
+2016-10-25 07:04:16 ERROR  : ERROR:  la columna «egreso.descripcion» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 3:   egreso.descripcion, 
+           ^
+2016-10-25 07:04:33 ERROR  : ERROR:  la columna «egreso_registro.valor» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 4:   egreso_registro.valor, 
+           ^
+2016-10-25 07:04:44 ERROR  : ERROR:  la columna «vehiculo.placa» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 5:   vehiculo.placa
+           ^
+2016-10-25 07:24:11 ERROR  : ERROR:  no existe la columna egreso.fecha
+LÍNEA 6:   egreso.fecha
+           ^
+2016-10-25 07:25:50 ERROR  : ERROR:  no existe la columna egreso.placa
+LÍNEA 19:   egreso.placa;
+            ^
+2016-10-25 07:26:11 ERROR  : ERROR:  la columna «egreso_registro.valor» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 4:   egreso_registro.valor, 
+           ^
+2016-10-25 07:28:51 ERROR  : ERROR:  no existe la columna egreso.placa
+LÍNEA 19:  egreso.placa;
+           ^
+2016-10-25 07:28:58 ERROR  : ERROR:  la columna «egreso_registro.valor» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 4:   egreso_registro.valor, 
+           ^
+2016-10-25 07:35:21 ERROR  : ERROR:  no existe la relación «egreo_registro»
+LÍNEA 7:   egreso left outer join egreo_registro
+                                  ^
+2016-10-25 07:35:26 ERROR  : ERROR:  el argumento de AND debe ser de tipo boolean, no tipo egreso_registro
+LÍNEA 10:   egreso_registro join vehiculo
+            ^
+2016-10-25 07:36:36 ERROR  : ERROR:  falta una entrada para la tabla «egreso_tipo» en la cláusula FROM
+LÍNEA 15:   egreso_tipo.id = egreso.id_tipo AND
+            ^
+2016-10-25 09:13:50 ERROR  : ERROR:  la columna «egreso.codigo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   egreso.codigo, 
+           ^
+2016-10-25 17:53:28 ERROR  : ERROR:  ya existe la columna «corte» en la relación «produccion_anterior»
+2016-10-25 17:57:17 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo real: «KM»
+CONTEXTO:  COPY produccion_anterior, línea 1, columna km_recorridos: «KM»
+2016-10-25 17:57:32 ERROR  : Copy failed!
+
+2016-10-25 17:58:29 ERROR  : ERROR:  la columna «id» especificada como FORCE NOT NULL no fue mencionada en COPY
+2016-10-25 17:58:33 ERROR  : no hay COPY alguno en ejecución
+2016-10-25 17:58:35 ERROR  : Copy failed!
+
+2016-10-25 17:58:49 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo real: «KM»
+CONTEXTO:  COPY produccion_anterior, línea 1, columna km_recorridos: «KM»
+2016-10-25 17:58:54 ERROR  : Copy failed!
+
+2016-10-25 17:59:41 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo real: «28003296,42»
+CONTEXTO:  COPY produccion_anterior, línea 14, columna valor_viaje: «28003296,42»
+2016-10-25 17:59:55 ERROR  : Copy failed!
+
+2016-10-25 18:03:32 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo real: «KM»
+CONTEXTO:  COPY produccion_anterior, línea 1, columna km_recorridos: «KM»
+2016-10-25 18:03:38 ERROR  : Copy failed!
+
+2016-10-25 18:03:45 ERROR  : ERROR:  la columna «id» especificada como FORCE NOT NULL no fue mencionada en COPY
+2016-10-25 18:03:49 ERROR  : no hay COPY alguno en ejecución
+2016-10-25 18:03:50 ERROR  : Copy failed!
+
+2016-10-25 18:10:14 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo real: «KM»
+CONTEXTO:  COPY produccion_anterior, línea 1, columna km_recorridos: «KM»
+2016-10-25 18:10:18 ERROR  : Copy failed!
+
+2016-10-25 18:13:30 ERROR  : ERROR:  la relación «pk_produccion_anterior_id» ya existe
+2016-10-26 08:06:52 ERROR  : ERROR:  la columna «egreso.descripcion» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   egreso.descripcion, 
+           ^
+2016-10-26 08:07:11 ERROR  : ERROR:  falta una entrada para la tabla «greso» en la cláusula FROM
+LÍNEA 9:   greso.descripcion
+           ^
+2016-10-26 08:08:14 ERROR  : ERROR:  la columna «egreso.codigo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   egreso.codigo,
+           ^
+2016-10-26 08:08:23 ERROR  : ERROR:  la columna «egreso.codigo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   egreso.codigo,
+           ^
+2016-10-26 15:22:34 ERROR  : ERROR:  no existe la función min(integer, date)
+LÍNEA 1: select min(id, fecha) from viaje
+                ^
+SUGERENCIA:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+2016-10-26 15:22:41 ERROR  : ERROR:  la columna «viaje.id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 1: select id, min(fecha) from viaje
+                ^
+2016-10-26 15:22:57 ERROR  : ERROR:  la columna «viaje.id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 1: select min(fecha), id from viaje
+                            ^
+2016-10-26 15:23:26 ERROR  : ERROR:  error de sintaxis en o cerca de «asc»
+LÍNEA 1: select min(fecha), id from viaje group by id order by asc
+                                                               ^
+2016-10-26 15:23:47 ERROR  : ERROR:  error de sintaxis en o cerca de «des»
+LÍNEA 1: select min(fecha), id from viaje group by id order by id des
+                                                                  ^
+2016-10-26 15:25:25 ERROR  : ERROR:  no existe la columna «estado»
+LÍNEA 1: select min(fecha), id, estado from viaje group by id order b...
+                                ^
+2016-10-26 15:25:30 ERROR  : ERROR:  no existe la columna «estado»
+LÍNEA 1: select min(fecha), id, estado from viaje group by id, estado...
+                                ^
+2016-10-26 15:25:40 ERROR  : ERROR:  error de sintaxis en o cerca de «by»
+LÍNEA 1: ...), id, estado from viaje group by id, activoorder by fecha a...
+                                                              ^
+2016-10-26 15:25:46 ERROR  : ERROR:  no existe la columna «fecha»
+LÍNEA 1: select min(fecha), id, activofrom viaje group by id, activo ...
+                    ^
+2016-10-26 18:09:22 ERROR  : ERROR:  error de sintaxis en o cerca de «as»
+LÍNEA 5:          SUM(t2.valor) as v1
+                                ^
+2016-10-26 18:09:25 ERROR  : ERROR:  error de sintaxis en o cerca de «as»
+LÍNEA 5:          SUM(t2.valor) as v1
+                                ^
+2016-10-26 18:09:25 ERROR  : ERROR:  error de sintaxis en o cerca de «as»
+LÍNEA 5:          SUM(t2.valor) as v1
+                                ^
+2016-10-26 18:09:26 ERROR  : ERROR:  error de sintaxis en o cerca de «as»
+LÍNEA 5:          SUM(t2.valor) as v1
+                                ^
+2016-10-26 18:09:35 ERROR  : ERROR:  error de sintaxis en o cerca de «v1»
+LÍNEA 5:          SUM(t2.valor)  v1
+                                 ^
+2016-10-26 18:10:13 ERROR  : ERROR:  error de sintaxis en o cerca de «v1»
+LÍNEA 5:          SUM(t2.valor)  v1
+                                 ^
+2016-10-26 18:10:25 ERROR  : ERROR:  error de sintaxis en o cerca de «WHEN»
+LÍNEA 7:     WHEN (t2.fecha between '2016-10-01' AND '2016-10-31') TH...
+             ^
+2016-10-26 18:10:58 ERROR  : ERROR:  falta una entrada para la tabla «t2» en la cláusula FROM
+LÍNEA 4:     WHEN (t2.fecha between '2016-09-12' AND '2016-09-30') TH...
+                   ^
+2016-10-26 18:11:06 ERROR  : ERROR:  la columna «t2.fecha» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 4:     WHEN (t2.fecha between '2016-09-12' AND '2016-09-30') TH...
+                   ^
+2016-10-26 18:11:12 ERROR  : ERROR:  la columna «t2.fecha» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 4:     WHEN (t2.fecha between '2016-09-12' AND '2016-09-30') TH...
+                   ^
+2016-10-26 18:13:14 ERROR  : ERROR:  error de sintaxis en o cerca de «CASE»
+LÍNEA 7:  CASE 
+          ^
+2016-10-26 18:13:40 ERROR  : ERROR:  falta una entrada para la tabla «egreso» en la cláusula FROM
+LÍNEA 2:   egreso.descripcion,
+           ^
+2016-10-26 18:14:05 ERROR  : ERROR:  referencia a la entrada de la cláusula FROM para la tabla «egreso» no válida
+LÍNEA 2:   egreso.descripcion,
+           ^
+SUGERENCIA:  Probablemente quiera hacer referencia al alias de la tabla «t1».
+2016-10-26 18:14:18 ERROR  : ERROR:  la columna «t1.descripcion» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   t1.descripcion,
+           ^
+2016-10-26 18:15:37 ERROR  : ERROR:  la columna «t2.fecha» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 5:     WHEN (t2.fecha between '2016-09-12' AND '2016-09-30') TH...
+                   ^
+2016-10-26 18:20:31 ERROR  : ERROR:  la columna «t2.fecha» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 5:     WHEN (t2.fecha between '2016-09-12' AND '2016-09-30') TH...
+                   ^
+2016-10-26 18:20:49 ERROR  : ERROR:  error de sintaxis en o cerca de «as»
+LÍNEA 19:     END  as v1
+                   ^
+2016-10-26 18:20:57 ERROR  : ERROR:  no se permiten funciones de agregación en GROUP BY
+LÍNEA 18:          SUM(t2.valor)    
+                   ^
+2016-10-26 18:21:04 ERROR  : ERROR:  error de sintaxis en o cerca de «END»
+LÍNEA 19:     END  
+              ^
+2016-10-26 18:21:11 ERROR  : ERROR:  error de sintaxis en o cerca de «order»
+LÍNEA 20: order by t1.codigo
+          ^
+2016-10-26 18:21:18 ERROR  : ERROR:  error de sintaxis en o cerca de «order»
+LÍNEA 19: order by t1.codigo
+          ^
+2016-10-26 18:21:25 ERROR  : ERROR:  la columna «t2.fecha» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 5:     WHEN (t2.fecha between '2016-09-12' AND '2016-09-30') TH...
+                   ^
+2016-10-26 18:21:57 ERROR  : ERROR:  error de sintaxis en o cerca de «as»
+LÍNEA 8:     END  as v1
+                  ^
+2016-10-26 18:22:10 ERROR  : ERROR:  la columna «t2.fecha» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 11:     WHEN (t2.fecha between '2016-10-01' AND '2016-10-30') TH...
+                    ^
+2016-10-28 07:40:45 ERROR  : ERROR:  no existe la función coutn(integer)
+LÍNEA 3: coutn(viaje.id)
+         ^
+SUGERENCIA:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+2016-10-28 07:42:15 ERROR  : ERROR:  error de sintaxis en o cerca de «viaje»
+LÍNEA 8:  viaje.fecha between '2016-09-01'AND '2016-09-30';
+          ^
+2016-10-28 07:44:45 ERROR  : ERROR:  no existe la columna «km»
+LÍNEA 5: km / nro_viajes
+         ^
+2016-10-28 10:47:35 ERROR  : ERROR:  el ingreso de tipos compuestos anónimos no está implementado
+LÍNEA 6:  viaje between '2016-09-01' AND '2016-09-30'
+                        ^
+2016-10-28 10:53:15 ERROR  : ERROR:  error de sintaxis en o cerca de «from»
+LÍNEA 14:  select count(distinct viaje.fecha from viaje)
+                                             ^
+2016-10-28 10:53:51 ERROR  : ERROR:  error de sintaxis en o cerca de «.»
+LÍNEA 4:   count(viaje.id),
+                      ^
+2016-10-28 10:54:08 ERROR  : ERROR:  error de sintaxis en o cerca de «from»
+LÍNEA 8: from
+         ^
+2016-10-28 10:54:14 ERROR  : ERROR:  no existe la función coun(date)
+LÍNEA 3:   coun(distinct viaje.fecha),
+           ^
+SUGERENCIA:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+2016-10-28 11:24:02 ERROR  : ERROR:  no existe la columna viaje.id_volqueta
+LÍNEA 3:   count(distinct viaje.id_volqueta),
+                          ^
+2016-10-30 05:22:41 ERROR  : ERROR:  el valor null para la columna «fecha_hora» viola la restricción not null
+DETALLE:  La fila que falla contiene (2, 2, null, null, null, null).
+2016-11-02 17:09:19 ERROR  : ERROR:  error de sintaxis en o cerca de «viaje»
+LÍNEA 4:  viaje
+          ^
+2016-11-02 17:12:47 ERROR  : ERROR:  la columna «viaje.id_vehiculo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 3:  viaje.id_vehiculo 
+          ^
+2016-11-02 17:17:27 ERROR  : ERROR:  error de sintaxis en o cerca de «distinct»
+LÍNEA 3:  distinct(viaje.id_vehiculo)
+          ^
+2016-11-02 17:18:01 ERROR  : ERROR:  error de sintaxis en o cerca de «(»
+LÍNEA 3:  sum(km_recorridos) 
+             ^
+2016-11-02 17:18:02 ERROR  : ERROR:  error de sintaxis en o cerca de «(»
+LÍNEA 3:  sum(km_recorridos) 
+             ^
+2016-11-02 17:18:07 ERROR  : ERROR:  la columna «viaje.id_vehiculo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:  distinct(viaje.id_vehiculo),
+                   ^
+2016-11-02 17:18:26 ERROR  : ERROR:  error de sintaxis en o cerca de «distinct»
+LÍNEA 2:  // distinct(viaje.id_vehiculo),
+             ^
+2016-11-02 17:19:12 ERROR  : ERROR:  error de sintaxis en o cerca de «from»
+LÍNEA 4: from 
+         ^
+2016-11-02 17:19:55 ERROR  : ERROR:  error de sintaxis al final de la entrada
+LÍNEA 11: -- viaje.id_vehiculo,-- group by viaje.id_vehiculo
+                                                            ^
+2016-11-05 07:16:52 ERROR  : ERROR:  la columna «egreso.descripcion» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   egreso.descripcion,
+           ^
+2016-11-05 07:19:05 ERROR  : ERROR:  error de sintaxis en o cerca de «FROM»
+LÍNEA 4: FROM 
+         ^
+2016-11-05 09:28:56 ERROR  : ERROR:  el argumento de AND debe ser de tipo boolean, no tipo egreso_registro
+LÍNEA 17:   egreso_registro;
+            ^
+2016-11-05 09:32:13 ERROR  : ERROR:  falta una entrada para la tabla «vehiculo» en la cláusula FROM
+LÍNEA 10:   vehiculo.id = viaje.id_vehiculo AND
+            ^
+2016-11-05 09:32:33 ERROR  : ERROR:  falta una entrada para la tabla «egreso» en la cláusula FROM
+LÍNEA 11:   egreso.id = egreso_registro.id_egreso AND
+            ^
+2016-11-05 09:36:52 ERROR  : ERROR:  falta una entrada para la tabla «viaje» en la cláusula FROM
+LÍNEA 12:   vehiculo.id = viaje.id_vehiculo AND
+                          ^
+2016-11-05 09:37:16 ERROR  : ERROR:  falta una entrada para la tabla «viaje» en la cláusula FROM
+LÍNEA 16:   viaje.fecha BETWEEN '2016-09-01' AND '2016-11-05' AND 
+            ^
+2016-11-05 10:04:04 ERROR  : ERROR:  falta una entrada para la tabla «tabla3» en la cláusula FROM
+LÍNEA 9:   SUM( tabla3.valor )
+                ^
+2016-11-05 12:26:05 ERROR  : ERROR:  referencia a la entrada de la cláusula FROM para la tabla «egreso_registro» no válida
+LÍNEA 17: ON "egreso_registro"."id_vehiculo" = "tabla2"."id" 
+             ^
+SUGERENCIA:  Probablemente quiera hacer referencia al alias de la tabla «tabla3».
+2016-11-06 03:54:06 ERROR  : ERROR:  el argumento de AND debe ser de tipo boolean, no tipo bigint
+LÍNEA 21:   (SELECT SUM(tabla3.valor) FROM egreso_registro AS tabla3 W...
+            ^
+2016-11-06 03:54:15 ERROR  : ERROR:  la subconsulta usa la columna «tabla1.id» no agrupada de una consulta exterior
+LÍNEA 21: ...-10-01' AND '2016-10-31' and tabla3.id_vehiculo = tabla1.id)
+                                                               ^
+2016-11-06 04:07:13 ERROR  : ERROR:  error de sintaxis en o cerca de «FROM»
+LÍNEA 24: FROM 
+          ^
+2016-11-06 04:15:52 ERROR  : ERROR:  error de sintaxis en o cerca de «(»
+LÍNEA 21:   (SELECT SUM(tabla3.valor) 
+            ^
+2016-11-06 04:15:56 ERROR  : ERROR:  la subconsulta usa la columna «tabla1.id» no agrupada de una consulta exterior
+LÍNEA 23: ...-10-01' AND '2016-10-31' and tabla3.id_vehiculo = tabla1.id)
+                                                               ^
+2016-11-06 04:19:57 ERROR  : ERROR:  no existe la columna tabla2.id_vehiculo
+LÍNEA 23: ...-10-01' AND '2016-10-31' and tabla3.id_vehiculo = tabla2.id_...
+                                                               ^
+SUGERENCIA:  Perhaps you meant to reference the column "tabla3.id_vehiculo" or the column "tabla1.id_vehiculo".
+2016-11-06 04:20:18 ERROR  : ERROR:  la subconsulta usa la columna «tabla2.id» no agrupada de una consulta exterior
+LÍNEA 23: ...-10-01' AND '2016-10-31' and tabla3.id_vehiculo = tabla2.id)
+                                                               ^
+2016-11-06 04:21:58 ERROR  : ERROR:  la columna «tabla2.id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 14:   tabla2.id,
+            ^
+2016-11-06 04:22:31 ERROR  : ERROR:  error de sintaxis en o cerca de «(»
+LÍNEA 15:   COUNT (tabla1.id) AS "numero_viajes", 
+                  ^
+2016-11-06 05:25:19 ERROR  : ERROR:  error de sintaxis en o cerca de «'2016-10-01'»
+LÍNEA 54:      BETWEEN '2016-10-01' AND '2016-10-31') AS "combustible"...
+                       ^
+2016-11-06 05:39:09 ERROR  : ERROR:  no existe la columna «tabla3.id_egreso»
+LÍNEA 41: ..."valor") FROM "egreso_registro" AS "tabla3" WHERE "tabla3.id...
+                                                               ^
+2016-11-06 05:40:17 ERROR  : ERROR:  no existe la columna «tabla3.id_egreso»
+LÍNEA 4:     WHERE "tabla3.id_egreso" = 1 AND 
+                   ^
+2016-11-07 17:40:07 ERROR  : ERROR:  INSERT tiene más expresiones que columnas de destino
+LÍNEA 3: ...LT, '920-X6', 'USC142', 15.58, '', false, 1, '-', '2016-11-0...
+                                                              ^
+2016-11-08 18:29:57 ERROR  : ERROR:  la sintaxis de entrada no es válida para integer: «DEFAULT;135;2;11;;3;27;;;2016-11-08 23:00:00;1;25.653;58;875.22;1487.874;510;446362.2;350088;1;2016-09-26;2;TRUE»
+CONTEXTO:  COPY viaje, línea 1, columna id: «DEFAULT;135;2;11;;3;27;;;2016-11-08 23:00:00;1;25.653;58;875.22;1487.874;510;446362.2;350088;1;2016-...»
+2016-11-08 18:30:11 ERROR  : Copy failed!
+
+2016-11-08 18:30:22 ERROR  : ERROR:  la sintaxis de entrada no es válida para integer: «DEFAULT»
+CONTEXTO:  COPY viaje, línea 1, columna id: «DEFAULT»
+2016-11-08 18:30:27 ERROR  : Copy failed!
+
+2016-11-08 18:34:13 ERROR  : ERROR:  la sintaxis de entrada no es válida para integer: «DEFAULT»
+CONTEXTO:  COPY viaje, línea 1, columna id: «DEFAULT»
+2016-11-08 18:34:28 ERROR  : Copy failed!
+
+2016-11-08 18:35:28 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo real: «1.487.874»
+CONTEXTO:  COPY viaje, línea 1, columna ton_x_km: «1.487.874»
+2016-11-08 18:35:42 ERROR  : Copy failed!
+
+2016-11-08 18:36:33 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo real: «1.487.874»
+CONTEXTO:  COPY viaje, línea 1, columna ton_x_km: «1.487.874»
+2016-11-08 18:37:57 ERROR  : Copy failed!
+
+2016-11-08 18:38:44 ERROR  : ERROR:  datos extra después de la última columna esperada
+CONTEXTO:  COPY viaje, línea 1: «ID;ID_VEHICULO;ID_EMPRESA;ID_MATERIAL;ID_ITEM;ID_ORIGEN;ID_DESTINO;abs_origen;abs_destino;fecha_hora...»
+2016-11-08 18:39:01 ERROR  : Copy failed!
+
+2016-11-08 18:39:05 ERROR  : ERROR:  la columna «id» especificada como FORCE NOT NULL no fue mencionada en COPY
+2016-11-08 18:39:10 ERROR  : no hay COPY alguno en ejecución
+2016-11-08 18:39:11 ERROR  : Copy failed!
+
+2016-11-08 18:40:10 ERROR  : ERROR:  la sintaxis de entrada no es válida para integer: «DEFAULT»
+CONTEXTO:  COPY viaje, línea 2, columna id: «DEFAULT»
+2016-11-08 18:40:20 ERROR  : Copy failed!
+
+2016-11-08 18:40:42 ERROR  : ERROR:  el valor es demasiado largo para el tipo character varying(10)
+CONTEXTO:  COPY viaje, línea 2, columna abscisa_destino: «2016-11-08 23:00:00»
+2016-11-08 18:40:58 ERROR  : Copy failed!
+
+2016-11-08 18:57:50 ERROR  : ERROR:  el valor null para la columna «abscisa_origen» viola la restricción not null
+DETALLE:  La fila que falla contiene (5713, 135, 2, 11, 2, 3, 27, null, null, 2016-11-08 23:00:00, 1, 25.653, 58, 875.22, 1487.87, 510, 446362, 350088, 1, 2016-09-26, 2, t).
+CONTEXTO:  COPY viaje, línea 2: «135;2;11;2;3;27;;;2016-11-08 23:00:00;1;25.653;58;875.22;1487.874;510;446362.2;350088;1;2016-09-26;2...»
+2016-11-08 18:58:02 ERROR  : Copy failed!
+
+2016-11-08 18:58:08 ERROR  : ERROR:  la sintaxis de entrada no es válida para integer: «135;2;11;2;3;27;;;2016-11-08 23:00:00;1;25.653;58;875.22;1487.874;510;446362.2;350088;1;2016-09-26;2;TRUE»
+CONTEXTO:  COPY viaje, línea 2, columna id_vehiculo: «135;2;11;2;3;27;;;2016-11-08 23:00:00;1;25.653;58;875.22;1487.874;510;446362.2;350088;1;2016-09-26;2...»
+2016-11-08 18:58:18 ERROR  : Copy failed!
+
+2016-11-08 18:58:21 ERROR  : ERROR:  el valor null para la columna «abscisa_origen» viola la restricción not null
+DETALLE:  La fila que falla contiene (5714, 135, 2, 11, 2, 3, 27, null, null, 2016-11-08 23:00:00, 1, 25.653, 58, 875.22, 1487.87, 510, 446362, 350088, 1, 2016-09-26, 2, t).
+CONTEXTO:  COPY viaje, línea 2: «135;2;11;2;3;27;;;2016-11-08 23:00:00;1;25.653;58;875.22;1487.874;510;446362.2;350088;1;2016-09-26;2...»
+2016-11-08 18:58:29 ERROR  : Copy failed!
+
+2016-11-08 19:00:29 ERROR  : ERROR:  la sintaxis de entrada no es válida para integer: «ID_VEHICULO»
+CONTEXTO:  COPY viaje, línea 1, columna id_vehiculo: «ID_VEHICULO»
+2016-11-08 19:00:37 ERROR  : Copy failed!
+
+2016-11-08 19:00:41 ERROR  : ERROR:  inserción o actualización en la tabla «viaje» viola la llave foránea «fk_viaje_id_empresa»
+DETALLE:  La llave (id_empresa)=(2) no está presente en la tabla «empresa».
+2016-11-08 19:00:49 ERROR  : Copy failed!
+
+2016-11-08 19:01:45 ERROR  : ERROR:  inserción o actualización en la tabla «viaje» viola la llave foránea «fk_viaje_id_actividad»
+DETALLE:  La llave (id_actividad)=(9) no está presente en la tabla «actividad».
+2016-11-08 19:01:57 ERROR  : Copy failed!
+
+2016-11-10 17:21:24 ERROR  : ERROR:  la columna «er.id_egreso» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:    id_egreso, sum(valor)
+            ^
+2016-11-10 17:22:36 ERROR  : ERROR:  referencia a la entrada de la cláusula FROM para la tabla «egreso» no válida
+LÍNEA 6:  on egreso.id = egreso_registro.id_egreso
+             ^
+SUGERENCIA:  Probablemente quiera hacer referencia al alias de la tabla «e».
+2016-11-10 17:23:25 ERROR  : ERROR:  referencia a la entrada de la cláusula FROM para la tabla «egreso_registro» no válida
+LÍNEA 6:  on e.id = egreso_registro.id_egreso
+                    ^
+SUGERENCIA:  Probablemente quiera hacer referencia al alias de la tabla «er».
+2016-11-10 17:23:31 ERROR  : ERROR:  no existe la columna e.nombre
+LÍNEA 3:      e.nombre
+              ^
+2016-11-10 17:23:56 ERROR  : ERROR:  la columna «e.descripcion» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 3:      e.descripcion
+              ^
+2016-11-10 17:24:24 ERROR  : ERROR:  error de sintaxis en o cerca de «.»
+LÍNEA 3:      er.id_egreso, sum(valor)     
+                ^
+2016-11-10 17:24:31 ERROR  : ERROR:  la columna «er.id_egreso» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 3:      er.id_egreso, sum(valor)     
+              ^
+2016-11-10 17:26:42 ERROR  : ERROR:  el valor de hora/fecha está fuera de rango: «2016-11-31»
+LÍNEA 9:    er.fecha BETWEEN '2016-10-09' AND '2016-11-31'
+                                              ^
+2016-11-10 17:29:30 ERROR  : ERROR:  error de sintaxis en o cerca de «group»
+LÍNEA 25:      group by e.descripcion) AS "descrip", "valor" 
+               ^
+2016-11-10 17:29:42 ERROR  : ERROR:  error de sintaxis en o cerca de «.»
+LÍNEA 28:   "tabla2"."id" AS "id", "tabla2"."placa" AS "placa" 
+                    ^
+2016-11-10 17:29:50 ERROR  : ERROR:  la subconsulta debe retornar sólo una columna
+LÍNEA 14:   (
+            ^
+2016-11-10 17:30:19 ERROR  : ERROR:  la subconsulta debe retornar sólo una columna
+LÍNEA 14:   (
+            ^
+2016-11-10 17:32:38 ERROR  : ERROR:  la subconsulta debe retornar sólo una columna
+LÍNEA 14:   (
+            ^
+2016-11-10 17:38:34 ERROR  : ERROR:  error de sintaxis en o cerca de «s2»
+LÍNEA 24:      group by e.descripcion) AS s1 s2,
+                                             ^
+2016-11-10 17:38:40 ERROR  : ERROR:  la subconsulta debe retornar sólo una columna
+LÍNEA 14:   (
+            ^
+2016-11-10 17:51:59 ERROR  : ERROR:  falta una entrada para la tabla «tabla2» en la cláusula FROM
+LÍNEA 4:            "tabla3"."id_vehiculo" = "tabla2"."id" AND 
+                                             ^
+2016-11-10 17:52:14 ERROR  : ERROR:  error de sintaxis en o cerca de «group»
+LÍNEA 11:    group by e.descripcion;
+             ^
+2016-11-10 17:52:31 ERROR  : ERROR:  error de sintaxis en o cerca de «group»
+LÍNEA 11:    group by e.descripcion;
+             ^
+2016-11-10 18:00:49 ERROR  : ERROR:  falta una entrada para la tabla «tabla3» en la cláusula FROM
+LÍNEA 7:    "tabla3"."id_vehiculo" = "tabla2"."id" AND 
+            ^
+2016-11-10 18:00:55 ERROR  : ERROR:  falta una entrada para la tabla «tabla2» en la cláusula FROM
+LÍNEA 7:    "er"."id_vehiculo" = "tabla2"."id" AND 
+                                 ^
+2016-11-11 13:37:51 ERROR  : Error connecting to the server: no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (::1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+no se pudo conectar con el servidor: Conexión rehusada
+	¿Está el servidor en ejecución en el servidor «localhost» (127.0.0.1) y aceptando
+	conexiones TCP/IP en el puerto 5432?
+
+2016-11-11 13:41:13 ERROR  : ERROR:  la sintaxis de entrada no es válida para tipo date: «201608-26»
+LÍNEA 12:   fecha between '201608-26' and '2016-09-24';
+                          ^
+2016-11-11 13:41:41 ERROR  : ERROR:  error de sintaxis en o cerca de «group»
+LÍNEA 13:   group by placa
+            ^
+2016-11-11 13:41:46 ERROR  : ERROR:  la columna «usuario.nombre» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 2:   usuario.nombre, 
+           ^
+2016-11-11 13:41:54 ERROR  : ERROR:  la columna «viaje.fecha» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 4:   viaje.fecha
+           ^
+2016-11-11 13:44:52 ERROR  : ERROR:  la columna «vehiculo.placa» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LÍNEA 3:   vehiculo.placa, 
+           ^
+2016-11-11 14:20:22 ERROR  : ERROR:  error de sintaxis en o cerca de «group»
+LÍNEA 14:   group by usuario.nombre, vehiculo.placa order by vehiculo....
+            ^
+2016-11-11 14:21:19 ERROR  : ERROR:  la referencia a la columna «id_usuario» es ambigua
+LÍNEA 13:   viaje.activo = true and id_usuario = 2
+                                    ^
+2016-11-11 19:05:23 ERROR  : ERROR:  error de sintaxis en o cerca de «viaje»
+LÍNEA 12:   viaje.activo = true AND 
+            ^
